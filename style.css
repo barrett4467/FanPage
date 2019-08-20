@@ -1,0 +1,94 @@
+<style>
+/*Linking the font*/
+<link href="<link href="https://fonts.googleapis.com/css?family=Poppins|Slabo+27px&display=swap" rel="stylesheet">" rel="stylesheet"> 
+
+
+title {
+  font-family: 'Slabo 27px', serif;
+  font-size: 120px;
+}
+body {
+  background-image: url('https://i.pinimg.com/originals/ff/de/23/ffde236ea6c839ac2ce096a2c83810ab.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  line-height: 1.5; 
+  text-align: left;
+  color: black;
+  margin: 100px;
+}
+
+.border {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #66a3ff;
+}
+.content {
+  font-family: 'Poppins', sans-serif;
+  background-color: #D9DDD9;
+  padding: 25px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+
+p {
+    font-family: 'Slabo 27px', serif;
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  line-height: 5px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 75px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  line-height: 5px;
+  margin-top: 1px;
+  margin-bottom: 40px;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 30px;
+  }
+
+h3 {
+  text-align: left;
+}
+
+a { 
+  color: #477ca7; /* original link color (blue) */
+}
+
+a:hover { color: rgb(244, 72, 253); } /*change color on hover (purple) */
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
